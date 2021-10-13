@@ -1,0 +1,31 @@
+[1.107s] Invoking command in '/home/krishna/dev_ws/src/yolo_ai': PYTHONPATH=/home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolo_ai build --build-base /home/krishna/dev_ws/build/yolo_ai/build install --prefix /home/krishna/dev_ws/install/yolo_ai --record /home/krishna/dev_ws/build/yolo_ai/install.log --single-version-externally-managed
+[1.997s] running egg_info
+[2.006s] writing ../../build/yolo_ai/yolo_ai.egg-info/PKG-INFO
+[2.007s] writing dependency_links to ../../build/yolo_ai/yolo_ai.egg-info/dependency_links.txt
+[2.007s] writing entry points to ../../build/yolo_ai/yolo_ai.egg-info/entry_points.txt
+[2.008s] writing requirements to ../../build/yolo_ai/yolo_ai.egg-info/requires.txt
+[2.008s] writing top-level names to ../../build/yolo_ai/yolo_ai.egg-info/top_level.txt
+[2.178s] reading manifest file '../../build/yolo_ai/yolo_ai.egg-info/SOURCES.txt'
+[2.183s] writing manifest file '../../build/yolo_ai/yolo_ai.egg-info/SOURCES.txt'
+[2.186s] running build
+[2.187s] running build_py
+[2.189s] copying yolo_ai/test_return.py -> /home/krishna/dev_ws/build/yolo_ai/build/lib/yolo_ai
+[2.189s] running install
+[2.190s] running install_lib
+[2.192s] copying /home/krishna/dev_ws/build/yolo_ai/build/lib/yolo_ai/test_return.py -> /home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages/yolo_ai
+[2.195s] byte-compiling /home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages/yolo_ai/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[2.200s]   File "/home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages/yolo_ai/publisher_member_function.py", line 36
+[2.201s]     self.publisher_.publish(msg)
+[2.202s]     ^
+[2.203s] SyntaxError: invalid syntax
+[2.206s] 
+[2.207s] byte-compiling /home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages/yolo_ai/test_return.py to test_return.cpython-38.pyc
+[2.207s] running install_data
+[2.208s] running install_egg_info
+[2.213s] removing '/home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages/yolo_ai-0.0.1-py3.8.egg-info' (and everything under it)
+[2.213s] Copying ../../build/yolo_ai/yolo_ai.egg-info to /home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages/yolo_ai-0.0.1-py3.8.egg-info
+[2.218s] running install_scripts
+[2.290s] Installing listener script to /home/krishna/dev_ws/install/yolo_ai/lib/yolo_ai
+[2.291s] Installing talker script to /home/krishna/dev_ws/install/yolo_ai/lib/yolo_ai
+[2.292s] writing list of installed files to '/home/krishna/dev_ws/build/yolo_ai/install.log'
+[2.392s] Invoked command in '/home/krishna/dev_ws/src/yolo_ai' returned '0': PYTHONPATH=/home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolo_ai build --build-base /home/krishna/dev_ws/build/yolo_ai/build install --prefix /home/krishna/dev_ws/install/yolo_ai --record /home/krishna/dev_ws/build/yolo_ai/install.log --single-version-externally-managed

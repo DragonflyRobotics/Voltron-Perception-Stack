@@ -1,0 +1,22 @@
+[1.118s] Invoking command in '/home/krishna/dev_ws/src/yolo_ai': PYTHONPATH=/home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolo_ai build --build-base /home/krishna/dev_ws/build/yolo_ai/build install --prefix /home/krishna/dev_ws/install/yolo_ai --record /home/krishna/dev_ws/build/yolo_ai/install.log --single-version-externally-managed
+[1.963s] running egg_info
+[1.969s] writing ../../build/yolo_ai/yolo_ai.egg-info/PKG-INFO
+[1.979s] writing dependency_links to ../../build/yolo_ai/yolo_ai.egg-info/dependency_links.txt
+[1.979s] writing entry points to ../../build/yolo_ai/yolo_ai.egg-info/entry_points.txt
+[1.979s] writing requirements to ../../build/yolo_ai/yolo_ai.egg-info/requires.txt
+[1.980s] writing top-level names to ../../build/yolo_ai/yolo_ai.egg-info/top_level.txt
+[2.137s] reading manifest file '../../build/yolo_ai/yolo_ai.egg-info/SOURCES.txt'
+[2.141s] writing manifest file '../../build/yolo_ai/yolo_ai.egg-info/SOURCES.txt'
+[2.141s] running build
+[2.144s] running build_py
+[2.145s] running install
+[2.146s] running install_lib
+[2.151s] running install_data
+[2.154s] running install_egg_info
+[2.163s] removing '/home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages/yolo_ai-0.0.1-py3.8.egg-info' (and everything under it)
+[2.164s] Copying ../../build/yolo_ai/yolo_ai.egg-info to /home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages/yolo_ai-0.0.1-py3.8.egg-info
+[2.165s] running install_scripts
+[2.242s] Installing listener script to /home/krishna/dev_ws/install/yolo_ai/lib/yolo_ai
+[2.246s] Installing talker script to /home/krishna/dev_ws/install/yolo_ai/lib/yolo_ai
+[2.247s] writing list of installed files to '/home/krishna/dev_ws/build/yolo_ai/install.log'
+[2.341s] Invoked command in '/home/krishna/dev_ws/src/yolo_ai' returned '0': PYTHONPATH=/home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolo_ai build --build-base /home/krishna/dev_ws/build/yolo_ai/build install --prefix /home/krishna/dev_ws/install/yolo_ai --record /home/krishna/dev_ws/build/yolo_ai/install.log --single-version-externally-managed

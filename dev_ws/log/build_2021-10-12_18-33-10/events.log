@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000956] (yolo_ai) JobQueued: {'identifier': 'yolo_ai', 'dependencies': OrderedDict()}
+[0.001284] (yolo_ai) JobStarted: {'identifier': 'yolo_ai'}
+[0.094596] (-) TimerEvent: {}
+[0.200773] (-) TimerEvent: {}
+[0.302336] (-) TimerEvent: {}
+[0.403571] (-) TimerEvent: {}
+[0.504770] (-) TimerEvent: {}
+[0.607469] (-) TimerEvent: {}
+[0.710720] (-) TimerEvent: {}
+[0.813229] (-) TimerEvent: {}
+[0.917343] (-) TimerEvent: {}
+[1.019408] (-) TimerEvent: {}
+[1.116685] (yolo_ai) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/yolo_ai', 'build', '--build-base', '/home/krishna/dev_ws/build/yolo_ai/build', 'install', '--prefix', '/home/krishna/dev_ws/install/yolo_ai', '--record', '/home/krishna/dev_ws/build/yolo_ai/install.log', '--single-version-externally-managed'], 'cwd': '/home/krishna/dev_ws/src/yolo_ai', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'krishna', 'SSH_AGENT_PID': '1756', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/krishna', 'OLDPWD': '/home/krishna/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1572', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'krishna', 'JOURNAL_STREAM': '8:42303', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'krishna', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/krishna/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/krishna-Inspiron-ROS:@/tmp/.ICE-unix/1800,unix/krishna-Inspiron-ROS:/tmp/.ICE-unix/1800', 'INVOCATION_ID': 'db47253811174cd0becb2d8b97481940', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f736aef4_d430_4066_bfb9_c76957b2fb92', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/krishna/dev_ws/build/yolo_ai', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.122793] (-) TimerEvent: {}
+[1.225744] (-) TimerEvent: {}
+[1.326796] (-) TimerEvent: {}
+[1.427481] (-) TimerEvent: {}
+[1.528179] (-) TimerEvent: {}
+[1.628871] (-) TimerEvent: {}
+[1.729522] (-) TimerEvent: {}
+[1.830195] (-) TimerEvent: {}
+[1.930861] (-) TimerEvent: {}
+[2.018329] (yolo_ai) StdoutLine: {'line': b'running egg_info\n'}
+[2.025341] (yolo_ai) StdoutLine: {'line': b'creating ../../build/yolo_ai/yolo_ai.egg-info\n'}
+[2.026125] (yolo_ai) StdoutLine: {'line': b'writing ../../build/yolo_ai/yolo_ai.egg-info/PKG-INFO\n'}
+[2.027594] (yolo_ai) StdoutLine: {'line': b'writing dependency_links to ../../build/yolo_ai/yolo_ai.egg-info/dependency_links.txt\n'}
+[2.029411] (yolo_ai) StdoutLine: {'line': b'writing entry points to ../../build/yolo_ai/yolo_ai.egg-info/entry_points.txt\n'}
+[2.031147] (-) TimerEvent: {}
+[2.032050] (yolo_ai) StdoutLine: {'line': b'writing requirements to ../../build/yolo_ai/yolo_ai.egg-info/requires.txt\n'}
+[2.032877] (yolo_ai) StdoutLine: {'line': b'writing top-level names to ../../build/yolo_ai/yolo_ai.egg-info/top_level.txt\n'}
+[2.036516] (yolo_ai) StdoutLine: {'line': b"writing manifest file '../../build/yolo_ai/yolo_ai.egg-info/SOURCES.txt'\n"}
+[2.131433] (-) TimerEvent: {}
+[2.232694] (-) TimerEvent: {}
+[2.312618] (yolo_ai) StdoutLine: {'line': b"reading manifest file '../../build/yolo_ai/yolo_ai.egg-info/SOURCES.txt'\n"}
+[2.316795] (yolo_ai) StdoutLine: {'line': b"writing manifest file '../../build/yolo_ai/yolo_ai.egg-info/SOURCES.txt'\n"}
+[2.318165] (yolo_ai) StdoutLine: {'line': b'running build\n'}
+[2.318673] (yolo_ai) StdoutLine: {'line': b'running build_py\n'}
+[2.321015] (yolo_ai) StdoutLine: {'line': b'creating /home/krishna/dev_ws/build/yolo_ai/build\n'}
+[2.322564] (yolo_ai) StdoutLine: {'line': b'creating /home/krishna/dev_ws/build/yolo_ai/build/lib\n'}
+[2.323529] (yolo_ai) StdoutLine: {'line': b'creating /home/krishna/dev_ws/build/yolo_ai/build/lib/yolo_ai\n'}
+[2.325011] (yolo_ai) StdoutLine: {'line': b'copying yolo_ai/subscriber_member_function.py -> /home/krishna/dev_ws/build/yolo_ai/build/lib/yolo_ai\n'}
+[2.325483] (yolo_ai) StdoutLine: {'line': b'copying yolo_ai/publisher_member_function.py -> /home/krishna/dev_ws/build/yolo_ai/build/lib/yolo_ai\n'}
+[2.326339] (yolo_ai) StdoutLine: {'line': b'copying yolo_ai/__init__.py -> /home/krishna/dev_ws/build/yolo_ai/build/lib/yolo_ai\n'}
+[2.326784] (yolo_ai) StdoutLine: {'line': b'running install\n'}
+[2.330235] (yolo_ai) StdoutLine: {'line': b'running install_lib\n'}
+[2.332846] (-) TimerEvent: {}
+[2.338330] (yolo_ai) StdoutLine: {'line': b'creating /home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages/yolo_ai\n'}
+[2.340355] (yolo_ai) StdoutLine: {'line': b'copying /home/krishna/dev_ws/build/yolo_ai/build/lib/yolo_ai/subscriber_member_function.py -> /home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages/yolo_ai\n'}
+[2.341396] (yolo_ai) StdoutLine: {'line': b'copying /home/krishna/dev_ws/build/yolo_ai/build/lib/yolo_ai/publisher_member_function.py -> /home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages/yolo_ai\n'}
+[2.342485] (yolo_ai) StdoutLine: {'line': b'copying /home/krishna/dev_ws/build/yolo_ai/build/lib/yolo_ai/__init__.py -> /home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages/yolo_ai\n'}
+[2.343698] (yolo_ai) StdoutLine: {'line': b'byte-compiling /home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages/yolo_ai/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc\n'}
+[2.351609] (yolo_ai) StdoutLine: {'line': b'byte-compiling /home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages/yolo_ai/publisher_member_function.py to publisher_member_function.cpython-38.pyc\n'}
+[2.354929] (yolo_ai) StdoutLine: {'line': b'byte-compiling /home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages/yolo_ai/__init__.py to __init__.cpython-38.pyc\n'}
+[2.355831] (yolo_ai) StdoutLine: {'line': b'running install_data\n'}
+[2.359541] (yolo_ai) StdoutLine: {'line': b'creating /home/krishna/dev_ws/install/yolo_ai/share/ament_index\n'}
+[2.360350] (yolo_ai) StdoutLine: {'line': b'creating /home/krishna/dev_ws/install/yolo_ai/share/ament_index/resource_index\n'}
+[2.362394] (yolo_ai) StdoutLine: {'line': b'creating /home/krishna/dev_ws/install/yolo_ai/share/ament_index/resource_index/packages\n'}
+[2.363084] (yolo_ai) StdoutLine: {'line': b'copying resource/yolo_ai -> /home/krishna/dev_ws/install/yolo_ai/share/ament_index/resource_index/packages\n'}
+[2.363933] (yolo_ai) StdoutLine: {'line': b'copying package.xml -> /home/krishna/dev_ws/install/yolo_ai/share/yolo_ai\n'}
+[2.364463] (yolo_ai) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.382866] (yolo_ai) StdoutLine: {'line': b'Copying ../../build/yolo_ai/yolo_ai.egg-info to /home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages/yolo_ai-0.0.1-py3.8.egg-info\n'}
+[2.388775] (yolo_ai) StdoutLine: {'line': b'running install_scripts\n'}
+[2.433245] (-) TimerEvent: {}
+[2.526752] (yolo_ai) StdoutLine: {'line': b'Installing listener script to /home/krishna/dev_ws/install/yolo_ai/lib/yolo_ai\n'}
+[2.527539] (yolo_ai) StdoutLine: {'line': b'Installing talker script to /home/krishna/dev_ws/install/yolo_ai/lib/yolo_ai\n'}
+[2.528601] (yolo_ai) StdoutLine: {'line': b"writing list of installed files to '/home/krishna/dev_ws/build/yolo_ai/install.log'\n"}
+[2.533474] (-) TimerEvent: {}
+[2.624768] (yolo_ai) CommandEnded: {'returncode': 0}
+[2.635522] (-) TimerEvent: {}
+[2.739355] (-) TimerEvent: {}
+[2.750088] (yolo_ai) JobEnded: {'identifier': 'yolo_ai', 'rc': 0}
+[2.753977] (-) EventReactorShutdown: {}
