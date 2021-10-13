@@ -1,5 +1,0 @@
-  File "/home/krishna/dev_ws/install/yolo_ai/lib/python3.8/site-packages/yolo_ai/publisher_member_function.py", line 36
-    self.publisher_.publish(msg)
-    ^
-SyntaxError: invalid syntax
-
