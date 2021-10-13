@@ -1,4 +1,5 @@
-install/
+#dev_ws/install/
+#dev_ws/log/
 
 devel/
 logs/
